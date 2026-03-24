@@ -11,7 +11,8 @@ public class GoogleSearchTest {
         driver.get("https://www.google.com");
 
         driver.findElement(By.name("q")).sendKeys("Selenium Automation");
-
+        //new change
+driver.quit();
         /*1 Open Chrome browser
 2 Open Google website
 3 Find search box
