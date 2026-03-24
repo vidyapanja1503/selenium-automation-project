@@ -17,7 +17,7 @@ public class Google_Test {
 
         driver.findElement(By.name("q"))
                 .sendKeys(Keys.ENTER);
-
+driver.quit();
 
     }
 }
